@@ -1,0 +1,194 @@
+<!DOCTYPE html> <!--tell the version of html tags -->
+<html lang="en" dir="ltr">
+    <head> <!-- logical section of the webpage -->
+        <!--Single line comments -->
+        <!-- multi line
+            comments -->
+        <title> My first webpage  </title>
+        <!-- 1)create logo to the web page
+             2)External resources to the webpage -->
+        <link rel="stylesheet" type="text/css" href="C:\Users\Kalyani\Pictures\kavya.jpg">
+        <link rel="stylesheet" type="text/css" href="kalyani.css">
+        <!-- <meta> Searching and optimizing, Ranking of the webpage -->
+        <meta charset="utf-8"> <!-- HTML website uniquely in all browsers utf-16,ASCII -->
+        <meta name="author" content="kalyani">
+        <!-- It is users visible area -->
+        <!-- user-scalabe is used to zoom in or zoom out-->
+        <meta name="viewport" content="width=device-width" initial-scale="1.0" 
+        maximum-scale="1.0" minimum-scale="1.0" user-scalable="1.0"> 
+         <!-- to refresh the webpage for every 5 secs-->
+        <meta http-equiv="refresh" content="100">
+        <meta name="revised" content="17 sep 2005">
+        <!-- Integration between your webpage and social sites -> open graph meta tags-->
+        <meta property="og:url" content="www.google.com">
+
+        <!-- used for more look and feel of the website-->
+        <style type="text/css">
+
+        </style>
+
+        <!-- used for writting script -->
+        <script type="text/javascript">
+
+        </script>
+
+    </head>
+
+    <body link="green" alink="yellow" vlink="orange">
+        Hello
+        <h1 align="center">Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <hr>
+        <h1>Formating elements</h1>
+        <!-- these are inline tags -->
+        <b>Computer Science and Engineering</b><br>
+        <i>Computer Science and Engineering</i><br>
+        <u>Computer Science and Engineering</u><br>
+        <strike>Computer Science and Engineering</strike><br>
+        A<sup>2</sup><br>
+        H<sub>2</sub>O<br>
+        <big>Computer Science and Engineering</big><br>
+        <small>Computer Science and Engineering</small><br>
+        <hr>
+
+        <h1>Anchor Tag</h1>
+        <a href="#bottom" id="Top">Click to navigate Top </a><br>
+        <!-- Anchor:To create links - To able to perform navigation 
+            1)Within the website/webpage
+            2)Third party sites -->
+        <a href="https://google.com/" title="It is a google site" target="_blank/_self/_parent/Frame name">
+            Google</a><br>
+        <a href="C:\Users\Kalyani\Downloads\MEFA Unit-I Material-Pdf.pdf" title="MEFA PDF" target="_blank">
+            PDF</a><br>
+        <a href="#bottom" id="Bottom">Click to navigate bottom</a>
+        <hr>
+
+        <h1>Images</h1>
+        <img src="c:\Users\Kalyani\Downloads\Lordshiva.jpg" alt="RGUKT LOGO" 
+            height="100" width="100" title="RGUKT LOGO" align="left" border="1" hspace="5">
+        <img src="c:\Users\Kalyani\Downloads\Lordshiva2.jpg" alt="RGUKT LOGO" 
+            height="100" width="100" title="RGUKT LOGO" align="left" border="1" hspace="5"><br>
+        <div style="clear: both;"></div>
+        <a href="https://www.rgukt.in/" target="_blank"><img src="c:\Users\Kalyani\Downloads\Logonew.png" alt="RGUKT LOGO" 
+            height="100" width="100" title="RGUKT LOGO" align="left" border="1"vspace="5" hspace="5"></a>
+        <div style="clear: both;"></div><hr>
+        <!-- Image mapping-Single image and move to multiple links -->
+        <h1>Image Mapping</h1>
+        <h6>Divide the image into multiple parts-Hot region</h6> 
+        <!-- <area> Not region,shape="circle",cords=""-->
+
+        <img src="c:\Users\Kalyani\Downloads\Lordshiva.jpg" title="Image Mapping" usemap="#kalyani" 
+            height="300" width="300">
+        <map name="kalyani">
+            <area shape="circle" coords="40,40,50" href="https://google.com/">
+            <area shape="circle" coords="100,150,50" href="https://www.rgukt.in/">
+        </map>
+        <hr>
+        <!-- To scroll some information-->
+        <h1>Marquee</h1>
+        <marquee scrollamount="30" bgcolor="red" height="20" dir="left" scope="2"><font color="blue">
+            Welcome to Nelavanka</font></marquee>
+        <hr>
+
+        <h1>Tables</h1>
+        <!-- To arrange the information in particular order -->
+        <table border="1" width="300" height="00" cellspacing="5" cellpadding="10" bgcolor="green">
+            <caption> Table Example</caption>
+            <tr><td>1</td><td>2</td><td>3</td></tr>
+            <tr><td>4</td><td>5</td><td>6</td></tr>
+            <tr><td>7</td><td>8</td><td>9</td></tr>
+        </table>
+
+        <table border="1" rules="all" width="300" height="00" cellspacing="5" cellpadding="10" bgcolor="yellow">
+            <caption> Table Example</caption>
+            <thead bgcolor="pink">
+            <tr><th colspan="4">RGUKT STudents</th></tr>
+            </thead>
+            <tbody bgcolor="blue">
+            <tr>
+                <td colspan="2"> Proof</td><td rowspan="2" colspan="2"> College</td>
+            </tr>
+            <tr><td>SNO</td><td width="100">ID</td></tr>
+            <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+            <tr><td>5</td><td>6</td><td>7</td><td>8</td></tr>
+        </tbody>
+        <tfoot bgcolor="pink"><tr><td colspan=4 align="center">Footer</td></tr></tfoot>
+        </table>
+    <hr>
+
+    <h1>Lists</h1>
+    <!-- To arrange the data in different formats
+        1)ordered list - Sequence format - <ol>
+        2)unordered list-bullets <ul>
+        3)definition list  
+    -->
+    Ordered list
+    <ol type="i" start="10">
+        <li>CSE</li>
+        <li>ECE</li>
+        <li>EEE</li>
+        <li>MME</li>
+    </ol>
+    Unordered list
+    <ul type="none/disc/square/circle">
+        <li>CSE</li>
+        <li>ECE</li>
+        <li>EEE</li>
+        <li>MME</li>
+    </ul>
+    Definition list
+    <dl>
+        <dt>CSE</dt>
+        <dd>Computer Science Engineering</dd>
+        <dt>ECE</dt>
+        <dd>Electronics and Computer Engineering</dd>
+        <dt>EEE</dt>
+        <dd>Electrical and Electronics Engineering</dd>
+        <dt>MME</dt>
+        <dd>Metallurgical and Materials Engineering</dd>
+    </dl>
+
+    <abbr title="Hyper Text Markup Language">HTML</abbr>
+    <hr>
+    Hyper Text Markup Language
+    <p>Butterfly Butterfly
+        where are you going
+        outing in the ground
+        dancing dancing
+    </p>
+    <pre>Butterfly Butterfly
+where are you going
+outing in the ground
+dancing dancing
+    </pre>
+    <br>
+    <!-- Number entity,Named entity format Start wth & and endswith ;-->
+    right arrow &rarr;<br>
+    copy &copy;<br>
+    trade mark &trade;<br>
+    Hello &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; welcome to rgukt<br>
+    heart &hearts;
+    <hr>
+    <h1>color coding system</h1>
+    <!-- We can apply text,image border,back ground webpage 
+    1)Pre defined colors
+    2)Hexadecimal color system # _ _ (red) _ _ (green) _ _ (blue) (0-9 && a to f)
+    3)RGB(0-255,0-255,0-255)  
+    4)HSL-Hue (Rounded circle-degrees-0 degree-red,120-green,240-blue) 
+    Saturation (%-shading if 0-transparent,100-fully that color) and Lightness(0%-black,100%-white)
+        hsl(120,50%,50%) 
+    5)RGBA(0-255,0-255,0-255,0.0 to 1.0) A refers alpha channel-opacity(transparency)
+        rgba(255,0,0,0.5)
+    6)hsla(120,50%,50%,0-1.0) -->
+    <h1 style="background-color:blue;">Hii Hello Welcome to RGUKT-NUZVID</h1>
+    <h1 style="background-color:#00ff00;">Hii Hello Welcome to RGUKT-NUZVID</h1>
+    <h1 style="background-color:rgb(255,0,0);">Hii Hello Welcome to RGUKT-NUZVID</h1>
+    <h1 style="background-color:hsl(120,80%,80%);">Hii Hello Welcome to RGUKT-NUZVID</h1>
+    <hr> 
+</body>
+</html>
